@@ -25,8 +25,22 @@ Conferido no navegador em tamanho de celular e de desktop.
 
 Continua um único arquivo que funciona offline. Quem usa "reduzir movimento" no sistema vê a página sem animações.
 
+## Atualização 11/11/2026 · conteúdo da versão FINAL_1
+
+Conteúdo de "Proposta HUBSIE · Diverti - FINAL_1.html" aplicado no visual novo:
+
+- Logo HUBSIE em imagem no topo; o menu agora fica fixo ao rolar a página.
+- Novo título: "Esteira e entrega de projetos escaláveis". Saem as menções a white label.
+- Método HUBSIE em 3 passos: Prontidão Estratégica, Método 2PR e Execução 3R.
+- Equipe atualizada (Adão Gomes · Founder, Lucas Pereira em live branding, Caio em gestão de projetos).
+- Investimento com as chaves "Pré-produção" e "Projetos em andamento", e o novo Modelo C (Apoio e gestão de projetos em andamento).
+- Seção "Zero atrito" removida.
+- Novos destaques de clientes: Rowa, Inquietos e Colégio Pentágono (vídeos do Instagram, foto e depoimento em vídeo).
+- Cases: Método CIS, Máxima Potência e Nitro 10X.
+
+Versão anterior do redesign guardada em `HUBSIE_Proposta_Diverti/_backup/index_redesign_v1.html`.
+O arquivo agora tem cerca de 9 MB por causa do vídeo do depoimento embutido.
+
 ## Pendente antes de enviar ao Marcelo
 
-- Preencher os valores dos modelos A, B e C (procurar por `R$ ____` e `__ %`).
-- Confirmar nome/cargo do Caio na seção Equipe.
-- Confirmar "duas rodadas de ajuste" e "saída livre em 30 dias" em Zero atrito.
+- Confirmar o sobrenome do Caio na seção Equipe.
