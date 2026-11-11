@@ -41,6 +41,17 @@ Conteúdo de "Proposta HUBSIE · Diverti - FINAL_1.html" aplicado no visual novo
 Versão anterior do redesign guardada em `HUBSIE_Proposta_Diverti/_backup/index_redesign_v1.html`.
 O arquivo agora tem cerca de 9 MB por causa do vídeo do depoimento embutido.
 
+## Atualização 11/11/2026 · fotos e vídeos
+
+- Equipe: foto de cada pessoa como fundo desfocado do card; clicando, a foto abre em tela cheia.
+- Rowa: 3 vídeos no próprio bloco (lado a lado no computador, deslizando no celular).
+- Colégio Pentágono: bloco reorganizado em duas linhas (texto + Instagram, foto + depoimento), sem espaço vazio.
+- Cases: Máxima Potência e Nitro 10X agora com vídeo no lugar da foto.
+- Os vídeos novos ficam na pasta `videos/` ao lado do `index.html`. Se o arquivo for aberto solto, eles carregam do site publicado.
+
+Site publicado: https://propostamarcelo.vercel.app/
+Domínio próprio planejado: propostadiverti.hubsie.com.br (falta configurar na Vercel e no DNS).
+
 ## Pendente antes de enviar ao Marcelo
 
-- Confirmar o sobrenome do Caio na seção Equipe.
+- Textos da Equipe diferem das fotos: "Caio" (foto: Caio Bernardeli · Marketing) e Lucas (foto: Co-founder). Decidir se atualiza.
