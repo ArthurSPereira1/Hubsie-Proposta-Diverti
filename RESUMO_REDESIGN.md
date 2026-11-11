@@ -1,6 +1,6 @@
 # Redesign da proposta HUBSIE · Diverti (10/11/2026)
 
-Arquivo: `HUBSIE_Proposta_Diverti/index.html`
+Arquivo: `index.html` (na raiz do projeto)
 Original preservado em: `HUBSIE_Proposta_Diverti/_backup/index_original.html`
 
 Texto, fotos e links de WhatsApp continuam os mesmos. Só mudou o visual.
