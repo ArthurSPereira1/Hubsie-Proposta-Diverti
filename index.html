@@ -393,6 +393,10 @@ footer::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;back
 .brand-rowa .brand-logo{display:block;align-self:flex-start;height:56px;width:auto;margin:6px 0 4px}
 .brand-rowa .btn{background:#ece1d6;color:#000;font-family:"Arimo",var(--body);box-shadow:0 10px 30px -12px rgba(236,225,214,.45)}
 .brand-rowa .btn:hover{background:#dfba98;box-shadow:0 16px 40px -12px rgba(236,225,214,.5)}
+.rowa-videos{grid-column:1/-1;min-width:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:6px}
+.rowa-videos video{display:block;width:100%;min-width:0;aspect-ratio:480/736;object-fit:cover;border-radius:14px;background:#000;border:1px solid rgba(236,225,214,.18);box-shadow:0 30px 60px -30px rgba(0,0,0,.9)}
+@media (max-width:760px){.rowa-videos{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}.rowa-videos video{flex:0 0 72%;scroll-snap-align:start}}
+
 /* Inquietos: identidade do evento (preto, verde menta, linhas finas) */
 .feature.brand-inq{background:linear-gradient(115deg,transparent 0 47%,rgba(56,224,176,.35) 47% 47.4%,transparent 47.4% 100%) right top/38% 100% no-repeat,radial-gradient(600px circle at 100% 0%,rgba(56,224,176,.1),transparent 60%),#000;border-color:#38e0b0;box-shadow:0 40px 90px -50px rgba(56,224,176,.45)}
 .brand-inq .k{color:#38e0b0}
@@ -664,7 +668,12 @@ footer::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;back
         <img class="brand-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FtYWRhXzIiIGRhdGEtbmFtZT0iQ2FtYWRhIDIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ1OC42MiAxMTIuODIiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6ICNmZmY7CiAgICAgICAgc3Ryb2tlLXdpZHRoOiAwcHg7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxnIGlkPSJDYW1hZGFfMS0yIiBkYXRhLW5hbWU9IkNhbWFkYSAxIj4KICAgIDxnPgogICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xODQuNDUuNThjMCwyLjE3LDAsNC4xMSwwLDYuMDUsMCwyMS4yMi0uMTEsNDIuNDMuMDQsNjMuNjUuMTIsMTcuNzIsOS45LDMwLjk1LDI1LjQ2LDM0Ljk3LDIxLjA5LDUuNDUsNDAuOTctMTAuMDgsNDEuNDYtMzMuMDEuNDYtMjEuMzcuMTQtNDIuNzYuMTYtNjQuMTQsMC0yLjMyLDAtNC42MywwLTcuNDRoNi41MmMwLDMuNTMsMCw2LjgyLDAsMTAuMSwwLDIwLjM5LS4wNiw0MC43Ny4wMiw2MS4xNi4wNywxOS4yOSwxNC42NiwzNC4yNywzMy4zLDM0LjM2LDE4LjY3LjA4LDMzLjU3LTE0LjY1LDMzLjgtMzMuOTMuMjYtMjIuMDQuMTItNDQuMDkuMTYtNjYuMTMsMC0xLjc5LDAtMy41OCwwLTUuNzFoNi41NmMwLDIuMDcsMCwzLjg1LDAsNS42MiwwLDIxLjM4LjAxLDQyLjc2LDAsNjQuMTQtLjAxLDIwLjA0LTExLjIyLDM1LjY5LTI5LjI1LDQwLjg5LTE3Ljg4LDUuMTUtMzQuODgtMS43Ni00NS43OS0xOC42Mi0uNTMtLjgyLTEuMS0xLjYtMS45OC0yLjg4LTEuMTUsMS42Mi0yLjA5LDIuODgtMi45Niw0LjE5LTEwLjI3LDE1LjQ5LTI3LjI5LDIyLjEzLTQ0LjU2LDE3LjM4LTE2LjkyLTQuNjYtMjguOTQtMTkuNDgtMjkuMzMtMzcuNzMtLjUtMjMuMTktLjE0LTQ2LjQtLjIzLTY5LjYxLS4wMi01LjMxLDMuMjQtMy42LDYuNjMtMy4zWiIvPgogICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00NTguNjEsMTEyLjI2aC01LjU1di0yNi45M2MtLjM0LS4xNi0uNjctLjMyLTEuMDEtLjQ4LTIuMzcsMi44LTQuNjQsNS43LTcuMTMsOC4zOS0xNS4wMiwxNi4yNi0zMy42MywyMi4zNy01NS4wOSwxNy40MS0yMS4yNy00LjkxLTM1LjM3LTE4LjUxLTQxLjU1LTM5LjQyLTkuMDgtMzAuNjksMTAuNDUtNjIuNjMsNDIuMjctNjkuODgsMzAuOTQtNy4wNSw2Mi42MiwxNC4wNiw2Ny44Nyw0NS4yMi4xMS42NS4yLDEuMzIuMiwxLjk3LjAxLDIxLjAzLDAsNDIuMDcsMCw2My43MVpNNDAyLjY5LDEwNS42OWMyNy41NSwwLDUwLjEtMjIuMTksNTAuMTItNDkuMzEuMDEtMjcuMTItMjIuNTUtNDkuNjktNDkuOC00OS44LTI3LjczLS4xMi01MC4xMiwyMi4wNy01MC4xNCw0OS43MS0uMDMsMjcuNCwyMi4xNiw0OS40LDQ5LjgyLDQ5LjRaIi8+CiAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEwNy4wMywxMTIuMjJjLTMxLjI4LS4wNy01Ni40NC0yNS4yNy01Ni4yNi01Ni4zNUM1MC45NSwyNC42Miw3Ni4yOS4wNCwxMDguMjEuMTVjMzAuMzkuMTEsNTUuNzYsMjUuNzIsNTUuNjEsNTYuMTQtLjE1LDMxLjEyLTI1LjQxLDU2LTU2Ljc5LDU1LjkzWk0xMDcuMiwxMDUuNzJjMjcuNjMtLjEzLDUwLjExLTIyLjIyLDUwLjIxLTQ5LjM0LjEtMjcuMTgtMjIuOTEtNDkuOTUtNTAuMzQtNDkuODEtMjcuNjcuMTQtNDkuOTMsMjIuNi00OS43NCw1MC4yLjE4LDI3LjAxLDIyLjY3LDQ5LjA4LDQ5Ljg3LDQ4Ljk1WiIvPgogICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00Mi43NC41MXY1LjQxYy0zLjYyLjUyLTYuOTMuNzgtMTAuMTUsMS40OC0xNS4xNywzLjMtMjUuNjIsMTUuNDUtMjUuOSwzMS4xMy0uNDIsMjIuODctLjMzLDQ1Ljc1LS4yOSw2OC42MywwLDQuMzQtMS4wOSw2LjQzLTYuMTMsNC42Mi0uMDgtMS4zLS4yNi0yLjc0LS4yNi00LjE5LDAtMjMuMDQtLjA2LTQ2LjA5LjA5LTY5LjEzQy4yMywxNy4wMSwxOC44Mi0uNjIsNDAuMjEuMTdjLjguMDMsMS41OS4yMSwyLjUyLjM0WiIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+" alt="Rowa" width="459" height="113">
         <p>Veja os bastidores e a entrega da HUBSIE para a Rowa nos destaques do nosso Instagram.</p>
       </div>
-      <a class="btn" href="https://www.instagram.com/stories/highlights/18107189939354785/" target="_blank" rel="noopener">Ver os vídeos da Rowa</a>
+      <a class="btn" href="https://www.instagram.com/stories/highlights/18107189939354785/" target="_blank" rel="noopener">Ver mais no Instagram</a>
+      <div class="rowa-videos">
+        <video controls preload="metadata" playsinline src="videos/rowa1.mp4#t=0.1" aria-label="Vídeo 1 da HUBSIE para a Rowa"></video>
+        <video controls preload="metadata" playsinline src="videos/rowa2.mp4#t=0.1" aria-label="Vídeo 2 da HUBSIE para a Rowa"></video>
+        <video controls preload="metadata" playsinline src="videos/rowa3.mp4#t=0.1" aria-label="Vídeo 3 da HUBSIE para a Rowa"></video>
+      </div>
     </div>
     <div class="feature rev brand-inq">
       <div class="feature-txt">
@@ -895,5 +904,7 @@ footer::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;back
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && lb.classList.contains('open')) close(); });
 })();
 </script>
+<script>document.querySelectorAll('.rowa-videos video').forEach(v=>{const fb=()=>{if(v.dataset.fb)return;v.dataset.fb=1;v.src='https://propostamarcelo.vercel.app/'+v.getAttribute('src')};v.addEventListener('error',fb);if(v.error)fb()})</script>
+<script>document.addEventListener('play',e=>{document.querySelectorAll('video').forEach(v=>{if(v!==e.target)v.pause()})},true)</script>
 </body>
 </html>
