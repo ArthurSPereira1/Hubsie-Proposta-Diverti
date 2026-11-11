@@ -1,0 +1,23 @@
+HUBSIE · Proposta Diverti (Marcelo Crescenzio)
+==============================================
+
+CONTEUDO
+  index.html                      Proposta completa (pagina unica, imagens embutidas)
+  documentos/Briefing_de_Fechamento_Diverti_HUBSIE.md
+                                  Briefing interno de estrategia de fechamento (NAO enviar ao cliente)
+  documentos/Transcricao_Bruta_Reuniao_DIVERTI_HUBSIE_2026-11-09.md
+                                  Transcricao bruta da reuniao de 09/11/2026 (uso interno)
+
+COMO USAR
+  1. Ver no computador: de dois cliques em index.html (abre no navegador).
+     Funciona offline; so as fontes precisam de internet (sem elas, usa fonte padrao).
+  2. Publicar em um site: envie index.html para qualquer hospedagem estatica
+     (Hostinger, Netlify, Vercel, GitHub Pages, servidor proprio). Nao precisa de
+     banco de dados, PHP nem instalacao. Ex. Netlify: arraste a pasta em
+     app.netlify.com/drop.
+  3. Editar: abra index.html em um editor de texto (VS Code, Bloco de Notas).
+
+ANTES DE ENVIAR AO MARCELO
+  - Preencher os valores dos modelos A, B e C (procure por "R$ ____" e "__ %").
+  - Confirmar o nome/cargo do Caio na secao Equipe.
+  - Confirmar "duas rodadas de ajuste" e "saida livre em 30 dias" em Zero atrito.
